@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "Shipori Mincho";
+    src: url(./Shippori_Mincho/ShipporiMincho-Bold.ttf);
+    src: url(./Shippori_Mincho/ShipporiMincho-Regular.ttf);
+    src: url(./Shippori_Mincho/ShipporiMincho-Medium.ttf);
+    src: url(./Shippori_Mincho/ShipporiMincho-SemiBold.ttf);
+    src: url(./Shippori_Mincho/ShipporiMincho-ExtraBold.ttf);
+    font-weight: normal;
+}
+
+
+h1, h2, h3,li, p {
+    font-family: "poppins", serif;
+}
+
+body {
+    display: grid;
+    margin: 2em;
+    gap: 4em;
+}
+
+.inladen {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    ul {
+        grid-column: 2;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        background-color: white;
+        
+    }
+}
+
+.whatgeburd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: minmax(100px, auto);
+    column-gap: .5em;
+
+    h2 {
+        margin: 0;
+    }
+
+    article {
+        grid-row: 2;
+        padding: .5em;
+    }
+}
+
+.cssFaults {
+    p {
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.3em;
+        line-height: 1.1em;
+        font-weight: 400;
+    }
+}
